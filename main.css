@@ -1,0 +1,129 @@
+:root {
+    --red-color: #e27b86;
+    --yellow-color: #f2e692;
+    --blue-color: #7ba8e2;
+    
+    
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+header{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+
+}
+
+header img{
+
+    width: 218px;
+    height: 170px;
+}
+
+
+header .botoes{
+    display: flex;
+ 
+}
+
+
+fieldset{
+    border: none;
+}
+
+
+.bot{
+    width: 130px;
+    height: 45px;
+    text-decoration: none;
+    font-family: Amatic SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--red-color);
+
+}
+.bot:hover{
+    
+    text-decoration: underline;
+
+}
+
+a.destaque{
+    width: 180px;
+    color: white;
+    margin-right: 30px;
+    border-radius: 20px;
+    background-color: var(--red-color);
+}
+a.destaque:hover{
+    color: var(--red-color);
+    text-decoration: none;
+    background-color: antiquewhite;
+}
+
+p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 10px 40px;
+    text-align: center;
+    color: white;
+}
+
+
+h1{
+    margin-top: 50px ;
+    font-family: Amatic SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 0px;
+    color: white;
+}
+
+
+.traço{
+    width: 114px;
+    height: 4px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width:801px) {
+    header{
+        flex-direction: column;
+    }
+    .botoes {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 30px;
+
+
+       
+    }
+    .bot {
+        margin: 10px;
+    }
+    a.destaque {
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,288 @@
+
+body {
+    height: 1000px;
+}
+#projetos .vertentes{
+    width: 100%;
+    margin-top: 40px;
+    height: 500px;
+    background-color: var(--yellow-color);
+    transition: 300ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#projetos .vertentes .title, #projetos .vertentes .subtitle{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+
+    
+}
+
+#projetos .imagem-projeto{
+    width: 450px;
+    position: absolute;
+    left: 850px;
+    top: 350px;
+}
+
+#projetos .saibaMais {
+    display: flex;
+    margin-top: 50px;
+}
+#projetos .title h1{
+    
+    font-size: 96px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    margin: 20px;
+
+}
+#projetos div.line  {
+    background: white;
+    height: 10px;
+}
+
+
+#projetos div#line1 {
+    flex: 1;
+}
+
+
+#projetos div#line2 {
+    flex: 3;
+}
+
+#projetos .subtitle h2{
+    
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 100;
+
+    margin: 20px 20px;
+    
+}
+
+#projetos .invisivel1{
+
+    height: 10px;
+    flex: 0.77;
+}
+
+#projetos .invisivel2{
+    width: 100%;
+    height: 10px;
+    flex: 2;
+}
+
+
+#projetos .invisivel3{
+
+    height: 10px;
+    flex: 0.75;
+}
+#projetos .saibaMais a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-family: Roboto;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    width: 410px;
+    height: 77px;
+    background-color: #D6CC87;
+    border-radius: 30px;
+    transition: 200ms;
+}
+
+#projetos .saibaMais a:hover{
+    opacity: 0.7;
+}
+
+#projetos .descricao {
+    width: 60%;
+    color: #7C5D5D;
+    font-size: 1.2rem;
+}
+#projetos .album {
+
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#projetos h2{
+    font-weight: 100;
+    font-size: 50px;
+    font-family: 'Roboto';
+    color: #7C5D5D;
+    margin-bottom: 0;
+}
+#projetos .vertente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#projetos .traço{
+    width: 85px;
+    height:  3px;
+    background: #7C5D5D;
+}
+
+#projetos .fotos{
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10rem;
+    row-gap: 4rem;
+
+
+}
+#projetos .molde{
+    overflow: hidden;
+    opacity: 1;
+    width: 310px;
+    height: 310px;
+    border-radius: 100%;
+ /*    background-color: #7C5D5D; */
+}
+
+.filtro{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    /* transition: opacity .2s linear; */
+    
+}
+
+.filtro-idosos {
+    background-color: rgba(242, 230, 146, 0.58);;
+
+}
+
+.filtro-criancas {
+    background-color: rgba(226, 123, 134, 0.58);
+}
+
+.filtro-animais {
+    background-color: rgba(123, 168, 226, 0.58);
+}
+.filtro-ambiente {
+    background-color: rgba(124, 201, 145, 0.58);
+}
+.filtro-extra {
+    background-color:  rgba(54, 54, 54, 0.58);
+   
+}
+
+.hidden {
+    opacity: 0;
+}
+.filtro p{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 30px;
+}
+#projetos #casa-de-ramana{
+    background-image: url('Images/foto4.png');
+}
+#projetos #avicres{
+    background-image: url('assets/fotos-projetos/avicres.png');
+    background-position: center;
+}
+
+#projetos #margarida-michel{
+    background-image: url('assets/fotos-projetos/margarida-michel.png');
+    background-position: center;
+}
+#projetos #lar-mae-ritinha{
+    background-image: url('assets/fotos-projetos/lar-mar-ritinha.png');
+    background-position: center;
+}
+#projetos #amar{
+    background-image: url('assets/fotos-projetos/amar.png');
+    background-position: center;
+}
+
+#projetos #santa-rita{
+    background-image: url('assets/fotos-projetos/santa-rita.png');
+    background-position: center;
+}
+
+#projetos #fernandes{
+    background-image: url('assets/fotos-projetos/fernandes.png');
+    background-position: center;
+}
+
+#projetos #feira{
+    background-image: url('assets/fotos-projetos/feira.png');
+    background-position: center;
+}
+#projetos #limpeza{
+    background-image: url('assets/fotos-projetos/limpeza.png');
+    background-position: center;
+}
+
+#projetos #rua{
+    background-image: url('assets/fotos-projetos/rua.png');
+    background-position: center;
+}
+
+
+#projetos #reciclagem{
+    background-image: url('assets/fotos-projetos/reciclagem.png');
+    background-position: center;
+}
+
+#projetos #congresso{
+    background-image: url('assets/fotos-projetos/congresso.png');
+    background-position: center;
+}
+@media (max-width:801px) {
+    #projetos .imagem-projeto{
+        display: none;
+    }
+    #projetos .title h1{
+        font-size: 45px;
+    }
+    #projetos .subtitle h2{
+        font-size: 25px;
+    }
+    #projetos .fotos{
+        grid-template-columns: 1fr;
+        column-gap: 0;
+    }
+    #projetos .saibaMais a{
+        width: 250px;
+        font-size: 22px;
+    }
+    #projetos div#line2{
+        flex: 1;
+    }
+    #projetos .invisivel1{
+
+        flex: 1;
+    }
+    #projetos .invisivel3{
+        flex: 1;
+    }    
+    #projetos .invisivel2{
+        width: 100%;
+        height: 10px;
+        flex: 1;
+    }
+
+}

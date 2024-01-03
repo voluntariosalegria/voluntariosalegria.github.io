@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voluntários da Alegria</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body> 
+    <header>
+
+        <img id="logo" src="assets/logo.png" alt="">
+        <div class="botoes">
+            <a href="index.html" class="bot destaque">voltar</a>
+            <a href="quemsomos.html" class="bot">quem somos</a>
+            <a href="#" class="bot">Filiais</a>
+            <a href="projetos.html" class="bot">projetos</a>
+        </div>
+    </header>
+    <div id="main-contatos">
+
+        <div id="contato">
+            <div id="title"><p>Conheça nossas redes sociais!</p></div>
+            <div class="icones">
+                <a href="https://www.facebook.com/voluntariado.voluntarios.da.alegria/" target="_blank">
+                    <img src="assets/redes/facebook.png" alt="" >
+    
+                </a>
+                <a href="https://www.instagram.com/voluntariosalegria/?hl=pt-br" target="_blank">
+                    <img src="assets/redes/instagram.png" alt="">
+                </a>
+                <a href="https://vm.tiktok.com/ZSg7c7b7/" target="_blank">
+                    
+                    <img src="assets/redes/tiktok.png" alt="" >
+                </a>
+                <a href="https://mobile.twitter.com/volunt_alegria" target="_blank">
+                    <img src="assets/redes/twitter.png" alt="" >
+                </a>
+                <a href="" target="_blank">
+                    
+                    
+                    <img src="assets/redes/linkedin.png" alt="" >
+                </a>
+                <a href="https://www.youtube.com/channel/UC2rZi7m6u8pgdzsRBrSYLPg"  target="_blank">
+                    
+                     <img src="assets/redes/youtube.png" alt="">
+                </a>
+    
+              
+            </div>
+        </div>
+        <div id="contato">
+            <div id="title"><p>Envie um email!</p></div>    
+            <form action="#" id="contato-form">
+                <label for="email">Assunto:</label>
+                <input id="subject" name="subject" placeholder="Assunto aqui">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="emailBody" name="emailBody" placeholder="Sua mensagem aqui"></textarea>
+                <!-- <a href="mailto:example@example.com?subject=Assunto do Email&body=Corpo do Email">Enviar Email</a> -->
+            </form>
+            <a id="emailLink" class="bot destaque" href="#" onclick="prepareEmail()">Enviar Email</a>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="contato.js"></script>
