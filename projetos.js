@@ -104,3 +104,21 @@ projects.ChangeTitleSubtitleRef()
 projects.ChangeImage()
 projects.photosEvent()
 
+
+let currentSlide = 0;
+const slides = document.querySelectorAll('.slide');
+
+function changeSlide(direction) {
+  slides[currentSlide].classList.remove('active');
+
+  currentSlide += direction;
+
+  if (currentSlide >= slides.length) {
+    currentSlide = 0;
+  } else if (currentSlide < 0) {
+    currentSlide = slides.length - 1;
+  }
+
+  slides[currentSlide].classList.add('active');
+}
+

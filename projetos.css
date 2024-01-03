@@ -81,7 +81,15 @@ body {
     flex: 2;
 }
 
+.arrow i {
+    display: block;
+    color: #fff; /* Set icon color to white */
+    transition: color 0.3s ease;
+  }
 
+.arrow:hover i {
+    color: GREY; /* Change the icon color on hover to a different color */
+}
 #projetos .invisivel3{
 
     height: 10px;
@@ -188,6 +196,14 @@ body {
    
 }
 
+.slide {
+    display: none;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+
 .hidden {
     opacity: 0;
 }
@@ -209,10 +225,23 @@ body {
     background-image: url('assets/fotos-projetos/margarida-michel.png');
     background-position: center;
 }
-#projetos #lar-mae-ritinha{
+#projetos #lar-mae-ritinha1{
     background-image: url('assets/fotos-projetos/lar-mar-ritinha.png');
     background-position: center;
 }
+
+
+
+#projetos #lar-mae-ritinha2{
+    background-image: url('assets/fotos-projetos/margarida-michel.png');
+    background-position: center;
+}
+
+#projetos #lar-mae-ritinha3{
+    background-image: url('assets/fotos-projetos/amar.png');
+    background-position: center;
+}
+
 #projetos #amar{
     background-image: url('assets/fotos-projetos/amar.png');
     background-position: center;
