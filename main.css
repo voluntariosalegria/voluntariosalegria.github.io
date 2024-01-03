@@ -107,7 +107,7 @@ h1{
 
 
 
-@media (max-width:801px) {
+@media (max-width:1001px) {
     header{
         flex-direction: column;
     }

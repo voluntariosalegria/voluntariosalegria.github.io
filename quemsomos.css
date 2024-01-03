@@ -111,7 +111,7 @@ img#dog {
 
 
 
-@media (max-width:801px) {
+@media (max-width:1000px) {
     #quem-somos{
         display:flex;
         flex-direction: column;
