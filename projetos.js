@@ -86,7 +86,7 @@ Projects =  function (){
                 if(event.type == 'touchend'){
                     setTimeout(function(){ 
                         photo.classList.add('hidden'); 
-                    }, 3000);
+                    }, 5000);
                 }
             }
             photo.addEventListener("mouseleave", function( event ){
