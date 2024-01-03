@@ -230,7 +230,12 @@ body {
     background-position: center;
 }
 
-
+.photo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 #projetos #lar-mae-ritinha2{
     background-image: url('assets/fotos-projetos/margarida-michel.png');
