@@ -226,9 +226,20 @@ body {
     background-position: center;
 }
 #projetos #lar-mae-ritinha1{
-    background-image: url('assets/fotos-projetos/lar-mar-ritinha.png');
+    background-image: url('assets/fotos-projetos/lar-mae-ritinha/foto1.jpg');
     background-position: center;
 }
+
+#projetos #lar-mae-ritinha2{
+    background-image: url('assets/fotos-projetos/lar-mae-ritinha/foto2.png');
+    background-position: center;
+}
+
+#projetos #lar-mae-ritinha3{
+    background-image: url('assets/fotos-projetos/lar-mae-ritinha/foto3.jpg');
+    background-position: center;
+}
+
 
 .photo-text {
     display: flex;
@@ -237,20 +248,24 @@ body {
     justify-content: center;
 }
 
-#projetos #lar-mae-ritinha2{
-    background-image: url('assets/fotos-projetos/margarida-michel.png');
+
+#projetos #amar1{
+    background-image: url('assets/fotos-projetos/amar/foto1.jpg');
     background-position: center;
 }
 
-#projetos #lar-mae-ritinha3{
-    background-image: url('assets/fotos-projetos/amar.png');
+
+#projetos #amar2{
+    background-image: url('assets/fotos-projetos/amar/foto2.png');
     background-position: center;
 }
 
-#projetos #amar{
-    background-image: url('assets/fotos-projetos/amar.png');
+
+#projetos #amar3{
+    background-image: url('assets/fotos-projetos/amar/foto3.jpg');
     background-position: center;
 }
+
 
 #projetos #santa-rita{
     background-image: url('assets/fotos-projetos/santa-rita.png');
