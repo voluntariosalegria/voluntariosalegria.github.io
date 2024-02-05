@@ -213,18 +213,7 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
-#projetos #casa-de-ramana{
-    background-image: url('Images/foto4.png');
-}
-#projetos #avicres{
-    background-image: url('assets/fotos-projetos/avicres.png');
-    background-position: center;
-}
 
-#projetos #margarida-michel{
-    background-image: url('assets/fotos-projetos/margarida-michel.png');
-    background-position: center;
-}
 #projetos #lar-mae-ritinha1{
     background-image: url('assets/fotos-projetos/lar-mae-ritinha/foto1.jpg');
     background-position: center;
@@ -240,12 +229,157 @@ body {
     background-position: center;
 }
 
+#projetos #tatui1{
+    background-image: url('assets/fotos-projetos/projeto_tatui/foto1.jpg');
+    background-position: center;
+}
+
+
+#projetos #tatui2{
+    background-image: url('assets/fotos-projetos/projeto_tatui/foto2.jpg');
+    background-position: center;
+}
+
+
+#projetos #tatui3{
+    background-image: url('assets/fotos-projetos/projeto_tatui/foto3.jpg');
+    background-position: center;
+}
+
+
+#projetos #doacao1{
+    background-image: url('assets/fotos-projetos/doacao_sangue/foto1.png');
+    background-position: center;
+}
+
+
+#projetos #doacao2{
+    background-image: url('assets/fotos-projetos/doacao_sangue/foto2.png');
+    background-position: center;
+}
+
+
+#projetos #doacao3{
+    background-image: url('assets/fotos-projetos/doacao_sangue/foto3.png');
+    background-position: center;
+}
+
+#projetos #madureira1{
+    background-image: url('assets/fotos-projetos/acao_madureira/foto1.jpg');
+    background-position: center;
+}
+
+
+#projetos #madureira2{
+    background-image: url('assets/fotos-projetos/acao_madureira/foto2.jpg');
+    background-position: center;
+}
+
+
+#projetos #madureira3{
+    background-image: url('assets/fotos-projetos/acao_madureira/foto3.jpg');
+    background-position: center;
+}
+
+
 
 .photo-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#projetos #adocao1{
+    background-image: url('assets/fotos-projetos/adocao_bem_me_quer/foto1.jpg');
+    background-position: center;
+}
+
+
+#projetos #adocao2{
+    background-image: url('assets/fotos-projetos/adocao_bem_me_quer/foto2.jpg');
+    background-position: center;
+}
+
+
+#projetos #adocao3{
+    background-image: url('assets/fotos-projetos/adocao_bem_me_quer/foto3.jpg');
+    background-position: center;
+}
+
+
+
+#projetos #lucinha1{
+    background-image: url('assets/fotos-projetos/lucinha_araujo/foto1.png');
+    background-position: center;
+}
+
+
+#projetos #lucinha2{
+    background-image: url('assets/fotos-projetos/lucinha_araujo/foto2.png');
+    background-position: center;
+}
+
+
+#projetos #lucinha3{
+    background-image: url('assets/fotos-projetos/lucinha_araujo/foto3.png');
+    background-position: center;
+}
+
+
+
+#projetos #gempaz1{
+    background-image: url('assets/fotos-projetos/gem_paz/foto\ 1.jpg');
+    background-position: center;
+}
+
+
+#projetos #gempaz2{
+    background-image: url('assets/fotos-projetos/gem_paz/foto\ 2.jpg');
+    background-position: center;
+}
+
+
+#projetos #gempaz3{
+    background-image: url('assets/fotos-projetos/gem_paz/foto\ 3.png');
+    background-position: center;
+}
+
+
+#projetos #iff1{
+    background-image: url('assets/fotos-projetos/IFF/foto1.jpg');
+    background-position: center;
+}
+
+
+#projetos #iff2{
+    background-image: url('assets/fotos-projetos/IFF/foto2.png');
+    background-position: center;
+}
+
+
+#projetos #iff3{
+    background-image: url('assets/fotos-projetos/IFF/foto3.png');
+    background-position: center;
+}
+
+
+
+#projetos #bia1{
+    background-image: url('assets/fotos-projetos/bia_bedran/foto1.png');
+    background-position: center;
+}
+
+
+#projetos #bia2{
+    background-image: url('assets/fotos-projetos/bia_bedran/foto2.png');
+    background-position: center;
+}
+
+
+#projetos #bia3{
+    background-image: url('assets/fotos-projetos/bia_bedran/foto3.png');
+    background-position: center;
 }
 
 
