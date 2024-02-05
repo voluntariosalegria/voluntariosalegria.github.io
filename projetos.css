@@ -400,41 +400,6 @@ body {
     background-position: center;
 }
 
-
-#projetos #santa-rita{
-    background-image: url('assets/fotos-projetos/santa-rita.png');
-    background-position: center;
-}
-
-#projetos #fernandes{
-    background-image: url('assets/fotos-projetos/fernandes.png');
-    background-position: center;
-}
-
-#projetos #feira{
-    background-image: url('assets/fotos-projetos/feira.png');
-    background-position: center;
-}
-#projetos #limpeza{
-    background-image: url('assets/fotos-projetos/limpeza.png');
-    background-position: center;
-}
-
-#projetos #rua{
-    background-image: url('assets/fotos-projetos/rua.png');
-    background-position: center;
-}
-
-
-#projetos #reciclagem{
-    background-image: url('assets/fotos-projetos/reciclagem.png');
-    background-position: center;
-}
-
-#projetos #congresso{
-    background-image: url('assets/fotos-projetos/congresso.png');
-    background-position: center;
-}
 @media (max-width:1000px) {
     #projetos .imagem-projeto{
         display: none;

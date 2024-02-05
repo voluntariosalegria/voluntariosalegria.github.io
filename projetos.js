@@ -105,20 +105,32 @@ projects.ChangeImage()
 projects.photosEvent()
 
 
-let currentSlide = 0;
-const slides = document.querySelectorAll('.slide');
+let currentSlide_ids = {
+    'amar': 0,
+    'lar-mae-ritinha': 0,
+    'bia': 0,
+    'iff': 0,
+    'gempaz': 0,
+    'lucinha': 0,
+    'adocao': 0,
+    'madureira': 0,
+    'tatui': 0,
+    'doacao': 0
+}
 
-function changeSlide(direction) {
+
+function changeSlide(direction, id) {
+  const slides = document.querySelectorAll(`[id^="${id}"]`)
+  let currentSlide = currentSlide_ids[id]
   slides[currentSlide].classList.remove('active');
-
   currentSlide += direction;
-
+  currentSlide_ids[id] = currentSlide;
   if (currentSlide >= slides.length) {
     currentSlide = 0;
   } else if (currentSlide < 0) {
     currentSlide = slides.length - 1;
   }
-
   slides[currentSlide].classList.add('active');
+
 }
 
