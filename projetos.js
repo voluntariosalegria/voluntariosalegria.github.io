@@ -4,7 +4,7 @@
 Projects =  function (){
     this.ArrayoOfProjects = [{
         title: 'CRIANÇAS',
-        subtitle: 'Orfanatos e Abrigos',
+        subtitle: 'Casas de Acolhimento e Abrigos',
         codBackground: '#E27B86',
         codBotton: '#BE6D75',
         image: 'assets/personagens/crianças.png',
